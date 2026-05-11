@@ -36,8 +36,6 @@ A full-stack BMS prototype implementing the core algorithms and protection logic
 ---
 
 ## Repository Structure
-
-```
 bms_project/
 ├── bms_simulator.py        # Python simulation (full BMS pipeline)
 ├── bms_arduino/
@@ -45,7 +43,6 @@ bms_project/
 ├── bms_telemetry_log.csv   # 7200-row data log from simulation
 ├── bms_dashboard.png       # 4-panel telemetry dashboard
 └── README.md
-```
 
 ---
 
@@ -74,7 +71,7 @@ python bms_simulator.py
 
 ## Arduino Firmware
 
-Hardware: Arduino Uno + resistor-divider voltage sense + DHT11 + 5V relay module + 16×2 LCD
+Hardware: Arduino Uno + resistor-divider voltage sense + DHT11 + 5V relay module + 16x2 LCD
 
 Flash `bms_arduino/bms_arduino.ino` via Arduino IDE.  
 Serial monitor at 9600 baud streams live telemetry for pyserial capture.
@@ -104,4 +101,4 @@ Serial monitor at 9600 baud streams live telemetry for pyserial capture.
 
 ## Contact
 
-vadrevusaisrinivas15@gmail.com | [LinkedIn](https://linkedin.com/in/saisrinivasvadrevu)
+vadrevusaisrinivas15@gmail.com | 
